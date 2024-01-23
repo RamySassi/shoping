@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+      <meta charset="UTF-8">
+      <title>DogStore</title>
+      <link rel="stylesheet" href="dogStore.css">
+
+
+      <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+      
+
+  </head>
+
+  <body>
+  
+    <main class="main-wrapper"
+    
+
+    style="background-color:rgb(247, 246, 246);">
+      <section class="barre">
+          <header class="top-header">
+
+          
+            <i class="fa badge fa-lg" value=0>&#xf290;</i>
+ 
+                          
+                 <center> <img  class="logo-dog"    src="./img/dog-shop-logo-vector-16177799.jpg" alt="logo dog"></center>
+              </div>
+              <center><h2 class="welcome" >welcome chez DogStore</h2></center>
+              <div class="sign-in">
+                <p><a href="">
+                  <div id="cart-container" ></div> </a></p> 
+                <button onclick="displayCart()">Afficher le Panier</button>
+                </a></p>
+              </div>
+
+          </header>
+
+          <div class="bottom-container"></div>
+      </section>
+
+      <section class="main-bottom-section">
+
+          <div class="item tops">
+
+<p><a href="Chihuahua.html">
+            <img class="item-image" src="./img/chiwawa.webp" alt="Chihuahua"> </a></p>
+            <button id="azer" onclick="addItemToCart('Chihuahua ',1000)">Ajouter Chihuahua a panier </button>
+          
+          </div>
+
+          <div class="item bottoms">
+            <p><a href="hasky.html">
+            <img  class="item-image" height="250px" src="./img/hasky.jfif" alt="hasky">  </a></p>
+            <button id="azer" onclick="addItemToCart('hasky',750)">Ajouter hasky a panier </button>
+         
+          </div>
+
+          <div class="full-width-item chowchow">
+            
+
+            <p><a href="chowchow.html">
+            <img  class="item-image" src="./img/chowchow.jfif" alt="chochow" >
+          </a></p>
+          <button  id="azer"onclick="addItemToCart('chochow',2400)">Ajouter chochow a panier </button>
+          </div>
+
+          <div class="large-item">
+            <p><a  href="Bolognese.html">
+            <img class="item-image" height="auto" width="250px" src="./img/Bolognese-standing-in-profile-outdoors.jpg" alt="Bolognese">
+     
+          </a></p>
+          <button onclick="addItemToCart('Bolognese',250)">Ajouter Bolognese a panier </button>
+          </div>
+
+          <div class="item kicks">
+            <p><a  href="doberman.html">
+            <img  id="azer" class="item-image" src="./img/duberm.jpg" alt="doberman">
+          </a></p>
+          <button onclick="addItemToCart('doberman',850)">Ajouter doberman a panier </button>
+          </div>
+
+          <div class="item bold">
+            <p><a href="buldak.html">
+            <img class="item-image" height="300px" src="./img/buldok.webp" alt="bulldog"></a></p> 
+
+          <button  id="azer" onclick="addItemToCart('bulldog',2300)">Ajouter bulldog a panier </button>
+          </div>
+          <div class="cordon">
+             <h1>  ♥ IG :rami-sassii   ♥  FB : Rami Sassi ♥</h1>
+            <h1>  tel:29053300</h1>
+            
+        </div>
+        <script src="sell.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      </section>
+    </main>
+  </body>
+
+</html>
